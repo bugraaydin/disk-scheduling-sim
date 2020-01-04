@@ -29,9 +29,9 @@ $ ./ds <num_of_disk_requests> <input_filename>
 The input should be given as rows of ```<request_arrival_time> <request_cylinder>``` pairs, each row separated by an EOL character. 
 
 ## Sample Run
-<p align="center">  <h3>Input</h3>  </p>  
+<p style="font-size: 16px; font-weight:800;" align="center"> Input  </p>  
 <p align="center">  <img width="150" src="/img/input.png">  </p>  
-<p align="center">  <h3>Output</h3>  </p>  
+<p style="font-size: 16px; font-weight:800;" align="center"> Output </p>  
 <p align="center">  <img width="300" src="/img/output.png">  </p>  
 
 Ending lines at the output shows name of the algorithm, total time required for all requests to be handled, average waiting time, and standard deviation of waiting times.
