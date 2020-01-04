@@ -6,7 +6,7 @@ This piece of code simulates the behavior of the following disk scheduling algor
 - **LOOK**
 - **CLOOK**
 
-For a given set of disk requests, total time, average waiting time and standart deviation of waiting time is outputted. (Rotational latency is disregarded.)
+For a given set of disk requests, total time, average waiting time and standard deviation of waiting time is outputted. (Rotational latency is disregarded.)
 
 ## Requirements
 - GCC 4.5 or later (Supports C99)
@@ -24,9 +24,13 @@ $ ./ds <num_of_disk_requests> <input_filename>
 ```
 
 ### Input format  
-The input should be given as rows of <request_arrival_time> <request_cylinder> pairs, each row separated by an EOL character. 
+The input should be given as rows of ```<request_arrival_time> <request_cylinder>``` pairs, each row separated by an EOL character. 
 
 ## Sample Run
-
+### Input:  
+![Sample Input](/img/input.png)
+### Output:  
+![Sample Output](/img/output.png)  
+Ending lines at the output shows name of the algortihm, total time required for all requests to be handled, average waiting time, and standard deviation of waiting times.
 
 
