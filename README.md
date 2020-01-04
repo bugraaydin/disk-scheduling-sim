@@ -6,7 +6,7 @@ This piece of code simulates the behavior of the following disk scheduling algor
 - **LOOK**
 - **CLOOK**
 
-For a given set of disk requests, total time, average waiting time and standard deviation of waiting time is outputted. (Rotational latency is disregarded.)
+For a given set of disk requests, total time, average waiting time and standard deviation of waiting time is outputted. 
 
 ## Requirements
 
