@@ -31,6 +31,6 @@ The input should be given as rows of ```<request_arrival_time> <request_cylinder
 ![Sample Input](/img/input.png)
 ### Output:  
 ![Sample Output](/img/output.png)  
-Ending lines at the output shows name of the algortihm, total time required for all requests to be handled, average waiting time, and standard deviation of waiting times.
+Ending lines at the output shows name of the algorithm, total time required for all requests to be handled, average waiting time, and standard deviation of waiting times.
 
 
