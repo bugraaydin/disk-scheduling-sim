@@ -9,6 +9,7 @@ This piece of code simulates the behavior of the following disk scheduling algor
 For a given set of disk requests, total time, average waiting time and standard deviation of waiting time is outputted. (Rotational latency is disregarded.)
 
 ## Requirements
+
 - GCC 4.5 or later (Supports C99)
 - GNU make
 
@@ -24,13 +25,19 @@ $ ./ds <num_of_disk_requests> <input_filename>
 ```
 
 ### Input format  
+
 The input should be given as rows of ```<request_arrival_time> <request_cylinder>``` pairs, each row separated by an EOL character. 
 
 ## Sample Run
+
 ### Input:  
-![Sample Input](/img/input.png)
+
+<p align="center">  <img width="150" src="/img/input.png">  </p>  
+
 ### Output:  
-![Sample Output](/img/output.png)  
+
+<p align="center">  <img width="300" src="/img/output.png">  </p>  
+
 Ending lines at the output shows name of the algorithm, total time required for all requests to be handled, average waiting time, and standard deviation of waiting times.
 
 
