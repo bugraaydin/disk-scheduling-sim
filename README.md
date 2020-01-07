@@ -1,6 +1,6 @@
 # Disk Scheduling Simulation  
   
-This piece of code simulates behavior of the following disk scheduling algorithms:  
+This piece of code simulates the behavior of following disk scheduling algorithms:  
 - **FCFS** (First Come First Served)
 - **SSTF** (Shortest Seek Time First)
 - **LOOK**
