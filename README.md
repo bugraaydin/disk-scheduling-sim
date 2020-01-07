@@ -36,4 +36,6 @@ The input should be given as rows of ```<request_arrival_time> <request_cylinder
 
 Ending lines at the output shows name of the algorithm, total time required for all requests to be handled, average waiting time, and standard deviation of waiting times.
 
+## Contributors  
+Written together with [Buğra Aydın](https://github.com/bugraaydin/)
 
